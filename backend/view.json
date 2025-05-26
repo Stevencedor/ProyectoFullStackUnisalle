@@ -1,0 +1,850 @@
+[
+    {
+      "id": 1,
+      "fecha": "2025-04-22",
+      "cantidad": 1500000,
+      "tipoPago": "CREDITO",
+      "status": "VALIDADO",
+      "file": "pago1.pdf",
+      "estudiante": {
+        "id": 1,
+        "nombre": "Juan",
+        "apellido": "Pérez",
+        "codigo": "20201001",
+        "programaId": "ING001",
+        "foto": "foto1.jpg"
+      }
+    },
+    {
+      "id": 2,
+      "fecha": "2025-04-22",
+      "cantidad": 2000000,
+      "tipoPago": "TRANSFERENCIA",
+      "status": "CREADO",
+      "file": "pago2.pdf",
+      "estudiante": {
+        "id": 2,
+        "nombre": "María",
+        "apellido": "González",
+        "codigo": "20201002",
+        "programaId": "ING001",
+        "foto": "foto2.jpg"
+      }
+    },
+    {
+      "id": 3,
+      "fecha": "2025-04-22",
+      "cantidad": 1800000,
+      "tipoPago": "DEBITO",
+      "status": "VALIDADO",
+      "file": "pago3.pdf",
+      "estudiante": {
+        "id": 3,
+        "nombre": "Carlos",
+        "apellido": "Rodríguez",
+        "codigo": "20201003",
+        "programaId": "ING002",
+        "foto": "foto3.jpg"
+      }
+    },
+    {
+      "id": 4,
+      "fecha": "2025-04-22",
+      "cantidad": 18957,
+      "tipoPago": "TRANSFERENCIA",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 1,
+        "nombre": "Juan",
+        "apellido": "Pérez",
+        "codigo": "20201001",
+        "programaId": "ING001",
+        "foto": "foto1.jpg"
+      }
+    },
+    {
+      "id": 5,
+      "fecha": "2025-04-22",
+      "cantidad": 5887,
+      "tipoPago": "EFECTIVO",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 1,
+        "nombre": "Juan",
+        "apellido": "Pérez",
+        "codigo": "20201001",
+        "programaId": "ING001",
+        "foto": "foto1.jpg"
+      }
+    },
+    {
+      "id": 6,
+      "fecha": "2025-04-22",
+      "cantidad": 11119,
+      "tipoPago": "DEBITO",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 1,
+        "nombre": "Juan",
+        "apellido": "Pérez",
+        "codigo": "20201001",
+        "programaId": "ING001",
+        "foto": "foto1.jpg"
+      }
+    },
+    {
+      "id": 7,
+      "fecha": "2025-04-22",
+      "cantidad": 9877,
+      "tipoPago": "TRANSFERENCIA",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 1,
+        "nombre": "Juan",
+        "apellido": "Pérez",
+        "codigo": "20201001",
+        "programaId": "ING001",
+        "foto": "foto1.jpg"
+      }
+    },
+    {
+      "id": 8,
+      "fecha": "2025-04-22",
+      "cantidad": 15402,
+      "tipoPago": "TRANSFERENCIA",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 1,
+        "nombre": "Juan",
+        "apellido": "Pérez",
+        "codigo": "20201001",
+        "programaId": "ING001",
+        "foto": "foto1.jpg"
+      }
+    },
+    {
+      "id": 9,
+      "fecha": "2025-04-22",
+      "cantidad": 10377,
+      "tipoPago": "TRANSFERENCIA",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 1,
+        "nombre": "Juan",
+        "apellido": "Pérez",
+        "codigo": "20201001",
+        "programaId": "ING001",
+        "foto": "foto1.jpg"
+      }
+    },
+    {
+      "id": 10,
+      "fecha": "2025-04-22",
+      "cantidad": 12658,
+      "tipoPago": "DEBITO",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 1,
+        "nombre": "Juan",
+        "apellido": "Pérez",
+        "codigo": "20201001",
+        "programaId": "ING001",
+        "foto": "foto1.jpg"
+      }
+    },
+    {
+      "id": 11,
+      "fecha": "2025-04-22",
+      "cantidad": 9016,
+      "tipoPago": "CREDITO",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 1,
+        "nombre": "Juan",
+        "apellido": "Pérez",
+        "codigo": "20201001",
+        "programaId": "ING001",
+        "foto": "foto1.jpg"
+      }
+    },
+    {
+      "id": 12,
+      "fecha": "2025-04-22",
+      "cantidad": 16333,
+      "tipoPago": "DEPOSITO",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 1,
+        "nombre": "Juan",
+        "apellido": "Pérez",
+        "codigo": "20201001",
+        "programaId": "ING001",
+        "foto": "foto1.jpg"
+      }
+    },
+    {
+      "id": 13,
+      "fecha": "2025-04-22",
+      "cantidad": 7737,
+      "tipoPago": "DEBITO",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 1,
+        "nombre": "Juan",
+        "apellido": "Pérez",
+        "codigo": "20201001",
+        "programaId": "ING001",
+        "foto": "foto1.jpg"
+      }
+    },
+    {
+      "id": 14,
+      "fecha": "2025-04-22",
+      "cantidad": 7921,
+      "tipoPago": "TRANSFERENCIA",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 2,
+        "nombre": "María",
+        "apellido": "González",
+        "codigo": "20201002",
+        "programaId": "ING001",
+        "foto": "foto2.jpg"
+      }
+    },
+    {
+      "id": 15,
+      "fecha": "2025-04-22",
+      "cantidad": 12777,
+      "tipoPago": "DEBITO",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 2,
+        "nombre": "María",
+        "apellido": "González",
+        "codigo": "20201002",
+        "programaId": "ING001",
+        "foto": "foto2.jpg"
+      }
+    },
+    {
+      "id": 16,
+      "fecha": "2025-04-22",
+      "cantidad": 9141,
+      "tipoPago": "TRANSFERENCIA",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 2,
+        "nombre": "María",
+        "apellido": "González",
+        "codigo": "20201002",
+        "programaId": "ING001",
+        "foto": "foto2.jpg"
+      }
+    },
+    {
+      "id": 17,
+      "fecha": "2025-04-22",
+      "cantidad": 8383,
+      "tipoPago": "DEPOSITO",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 2,
+        "nombre": "María",
+        "apellido": "González",
+        "codigo": "20201002",
+        "programaId": "ING001",
+        "foto": "foto2.jpg"
+      }
+    },
+    {
+      "id": 18,
+      "fecha": "2025-04-22",
+      "cantidad": 4898,
+      "tipoPago": "DEBITO",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 2,
+        "nombre": "María",
+        "apellido": "González",
+        "codigo": "20201002",
+        "programaId": "ING001",
+        "foto": "foto2.jpg"
+      }
+    },
+    {
+      "id": 19,
+      "fecha": "2025-04-22",
+      "cantidad": 18634,
+      "tipoPago": "TRANSFERENCIA",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 2,
+        "nombre": "María",
+        "apellido": "González",
+        "codigo": "20201002",
+        "programaId": "ING001",
+        "foto": "foto2.jpg"
+      }
+    },
+    {
+      "id": 20,
+      "fecha": "2025-04-22",
+      "cantidad": 9890,
+      "tipoPago": "TRANSFERENCIA",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 2,
+        "nombre": "María",
+        "apellido": "González",
+        "codigo": "20201002",
+        "programaId": "ING001",
+        "foto": "foto2.jpg"
+      }
+    },
+    {
+      "id": 21,
+      "fecha": "2025-04-22",
+      "cantidad": 19426,
+      "tipoPago": "EFECTIVO",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 2,
+        "nombre": "María",
+        "apellido": "González",
+        "codigo": "20201002",
+        "programaId": "ING001",
+        "foto": "foto2.jpg"
+      }
+    },
+    {
+      "id": 22,
+      "fecha": "2025-04-22",
+      "cantidad": 13096,
+      "tipoPago": "DEBITO",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 2,
+        "nombre": "María",
+        "apellido": "González",
+        "codigo": "20201002",
+        "programaId": "ING001",
+        "foto": "foto2.jpg"
+      }
+    },
+    {
+      "id": 23,
+      "fecha": "2025-04-22",
+      "cantidad": 4141,
+      "tipoPago": "TRANSFERENCIA",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 2,
+        "nombre": "María",
+        "apellido": "González",
+        "codigo": "20201002",
+        "programaId": "ING001",
+        "foto": "foto2.jpg"
+      }
+    },
+    {
+      "id": 24,
+      "fecha": "2025-04-22",
+      "cantidad": 3250,
+      "tipoPago": "TRANSFERENCIA",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 3,
+        "nombre": "Carlos",
+        "apellido": "Rodríguez",
+        "codigo": "20201003",
+        "programaId": "ING002",
+        "foto": "foto3.jpg"
+      }
+    },
+    {
+      "id": 25,
+      "fecha": "2025-04-22",
+      "cantidad": 2821,
+      "tipoPago": "DEBITO",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 3,
+        "nombre": "Carlos",
+        "apellido": "Rodríguez",
+        "codigo": "20201003",
+        "programaId": "ING002",
+        "foto": "foto3.jpg"
+      }
+    },
+    {
+      "id": 26,
+      "fecha": "2025-04-22",
+      "cantidad": 15204,
+      "tipoPago": "EFECTIVO",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 3,
+        "nombre": "Carlos",
+        "apellido": "Rodríguez",
+        "codigo": "20201003",
+        "programaId": "ING002",
+        "foto": "foto3.jpg"
+      }
+    },
+    {
+      "id": 27,
+      "fecha": "2025-04-22",
+      "cantidad": 10751,
+      "tipoPago": "DEPOSITO",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 3,
+        "nombre": "Carlos",
+        "apellido": "Rodríguez",
+        "codigo": "20201003",
+        "programaId": "ING002",
+        "foto": "foto3.jpg"
+      }
+    },
+    {
+      "id": 28,
+      "fecha": "2025-04-22",
+      "cantidad": 2320,
+      "tipoPago": "EFECTIVO",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 3,
+        "nombre": "Carlos",
+        "apellido": "Rodríguez",
+        "codigo": "20201003",
+        "programaId": "ING002",
+        "foto": "foto3.jpg"
+      }
+    },
+    {
+      "id": 29,
+      "fecha": "2025-04-22",
+      "cantidad": 15741,
+      "tipoPago": "DEPOSITO",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 3,
+        "nombre": "Carlos",
+        "apellido": "Rodríguez",
+        "codigo": "20201003",
+        "programaId": "ING002",
+        "foto": "foto3.jpg"
+      }
+    },
+    {
+      "id": 30,
+      "fecha": "2025-04-22",
+      "cantidad": 19831,
+      "tipoPago": "CREDITO",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 3,
+        "nombre": "Carlos",
+        "apellido": "Rodríguez",
+        "codigo": "20201003",
+        "programaId": "ING002",
+        "foto": "foto3.jpg"
+      }
+    },
+    {
+      "id": 31,
+      "fecha": "2025-04-22",
+      "cantidad": 19743,
+      "tipoPago": "CREDITO",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 3,
+        "nombre": "Carlos",
+        "apellido": "Rodríguez",
+        "codigo": "20201003",
+        "programaId": "ING002",
+        "foto": "foto3.jpg"
+      }
+    },
+    {
+      "id": 32,
+      "fecha": "2025-04-22",
+      "cantidad": 14563,
+      "tipoPago": "TRANSFERENCIA",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 3,
+        "nombre": "Carlos",
+        "apellido": "Rodríguez",
+        "codigo": "20201003",
+        "programaId": "ING002",
+        "foto": "foto3.jpg"
+      }
+    },
+    {
+      "id": 33,
+      "fecha": "2025-04-22",
+      "cantidad": 7930,
+      "tipoPago": "DEPOSITO",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 3,
+        "nombre": "Carlos",
+        "apellido": "Rodríguez",
+        "codigo": "20201003",
+        "programaId": "ING002",
+        "foto": "foto3.jpg"
+      }
+    },
+    {
+      "id": 34,
+      "fecha": "2025-04-22",
+      "cantidad": 9281,
+      "tipoPago": "DEBITO",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 1290345910235561700,
+        "nombre": "Melissa",
+        "apellido": "Gordillo",
+        "codigo": "12345",
+        "programaId": "IS2025",
+        "foto": null
+      }
+    },
+    {
+      "id": 35,
+      "fecha": "2025-04-22",
+      "cantidad": 13150,
+      "tipoPago": "CREDITO",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 1290345910235561700,
+        "nombre": "Melissa",
+        "apellido": "Gordillo",
+        "codigo": "12345",
+        "programaId": "IS2025",
+        "foto": null
+      }
+    },
+    {
+      "id": 36,
+      "fecha": "2025-04-22",
+      "cantidad": 16924,
+      "tipoPago": "EFECTIVO",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 1290345910235561700,
+        "nombre": "Melissa",
+        "apellido": "Gordillo",
+        "codigo": "12345",
+        "programaId": "IS2025",
+        "foto": null
+      }
+    },
+    {
+      "id": 37,
+      "fecha": "2025-04-22",
+      "cantidad": 14694,
+      "tipoPago": "TRANSFERENCIA",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 1290345910235561700,
+        "nombre": "Melissa",
+        "apellido": "Gordillo",
+        "codigo": "12345",
+        "programaId": "IS2025",
+        "foto": null
+      }
+    },
+    {
+      "id": 38,
+      "fecha": "2025-04-22",
+      "cantidad": 18493,
+      "tipoPago": "CREDITO",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 1290345910235561700,
+        "nombre": "Melissa",
+        "apellido": "Gordillo",
+        "codigo": "12345",
+        "programaId": "IS2025",
+        "foto": null
+      }
+    },
+    {
+      "id": 39,
+      "fecha": "2025-04-22",
+      "cantidad": 14294,
+      "tipoPago": "EFECTIVO",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 1290345910235561700,
+        "nombre": "Melissa",
+        "apellido": "Gordillo",
+        "codigo": "12345",
+        "programaId": "IS2025",
+        "foto": null
+      }
+    },
+    {
+      "id": 40,
+      "fecha": "2025-04-22",
+      "cantidad": 15757,
+      "tipoPago": "DEPOSITO",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 1290345910235561700,
+        "nombre": "Melissa",
+        "apellido": "Gordillo",
+        "codigo": "12345",
+        "programaId": "IS2025",
+        "foto": null
+      }
+    },
+    {
+      "id": 41,
+      "fecha": "2025-04-22",
+      "cantidad": 8739,
+      "tipoPago": "DEBITO",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 1290345910235561700,
+        "nombre": "Melissa",
+        "apellido": "Gordillo",
+        "codigo": "12345",
+        "programaId": "IS2025",
+        "foto": null
+      }
+    },
+    {
+      "id": 42,
+      "fecha": "2025-04-22",
+      "cantidad": 9144,
+      "tipoPago": "EFECTIVO",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 1290345910235561700,
+        "nombre": "Melissa",
+        "apellido": "Gordillo",
+        "codigo": "12345",
+        "programaId": "IS2025",
+        "foto": null
+      }
+    },
+    {
+      "id": 43,
+      "fecha": "2025-04-22",
+      "cantidad": 14890,
+      "tipoPago": "DEPOSITO",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 1290345910235561700,
+        "nombre": "Melissa",
+        "apellido": "Gordillo",
+        "codigo": "12345",
+        "programaId": "IS2025",
+        "foto": null
+      }
+    },
+    {
+      "id": 44,
+      "fecha": "2025-04-22",
+      "cantidad": 15306,
+      "tipoPago": "DEPOSITO",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 6118490790237749000,
+        "nombre": "Xiomara",
+        "apellido": "Posada",
+        "codigo": "78912",
+        "programaId": "II2024",
+        "foto": null
+      }
+    },
+    {
+      "id": 45,
+      "fecha": "2025-04-22",
+      "cantidad": 19246,
+      "tipoPago": "CREDITO",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 6118490790237749000,
+        "nombre": "Xiomara",
+        "apellido": "Posada",
+        "codigo": "78912",
+        "programaId": "II2024",
+        "foto": null
+      }
+    },
+    {
+      "id": 46,
+      "fecha": "2025-04-22",
+      "cantidad": 16336,
+      "tipoPago": "CREDITO",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 6118490790237749000,
+        "nombre": "Xiomara",
+        "apellido": "Posada",
+        "codigo": "78912",
+        "programaId": "II2024",
+        "foto": null
+      }
+    },
+    {
+      "id": 47,
+      "fecha": "2025-04-22",
+      "cantidad": 18699,
+      "tipoPago": "DEPOSITO",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 6118490790237749000,
+        "nombre": "Xiomara",
+        "apellido": "Posada",
+        "codigo": "78912",
+        "programaId": "II2024",
+        "foto": null
+      }
+    },
+    {
+      "id": 48,
+      "fecha": "2025-04-22",
+      "cantidad": 2271,
+      "tipoPago": "CREDITO",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 6118490790237749000,
+        "nombre": "Xiomara",
+        "apellido": "Posada",
+        "codigo": "78912",
+        "programaId": "II2024",
+        "foto": null
+      }
+    },
+    {
+      "id": 49,
+      "fecha": "2025-04-22",
+      "cantidad": 12384,
+      "tipoPago": "CREDITO",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 6118490790237749000,
+        "nombre": "Xiomara",
+        "apellido": "Posada",
+        "codigo": "78912",
+        "programaId": "II2024",
+        "foto": null
+      }
+    },
+    {
+      "id": 50,
+      "fecha": "2025-04-22",
+      "cantidad": 4399,
+      "tipoPago": "EFECTIVO",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 6118490790237749000,
+        "nombre": "Xiomara",
+        "apellido": "Posada",
+        "codigo": "78912",
+        "programaId": "II2024",
+        "foto": null
+      }
+    },
+    {
+      "id": 51,
+      "fecha": "2025-04-22",
+      "cantidad": 5284,
+      "tipoPago": "EFECTIVO",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 6118490790237749000,
+        "nombre": "Xiomara",
+        "apellido": "Posada",
+        "codigo": "78912",
+        "programaId": "II2024",
+        "foto": null
+      }
+    },
+    {
+      "id": 52,
+      "fecha": "2025-04-22",
+      "cantidad": 13377,
+      "tipoPago": "TRANSFERENCIA",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 6118490790237749000,
+        "nombre": "Xiomara",
+        "apellido": "Posada",
+        "codigo": "78912",
+        "programaId": "II2024",
+        "foto": null
+      }
+    },
+    {
+      "id": 53,
+      "fecha": "2025-04-22",
+      "cantidad": 13856,
+      "tipoPago": "CREDITO",
+      "status": "CREADO",
+      "file": null,
+      "estudiante": {
+        "id": 6118490790237749000,
+        "nombre": "Xiomara",
+        "apellido": "Posada",
+        "codigo": "78912",
+        "programaId": "II2024",
+        "foto": null
+      }
+    }
+  ]
