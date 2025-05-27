@@ -66,7 +66,7 @@ public class PagoController {
     }
 
     //metodo que liste los pagos hechos por un estudiante según su código
-    @GetMapping("/Estudiantes/{codigo}/pagos")	
+    @GetMapping("/estudiantes/{codigo}/pagos")
     public List<Pago> listarPagosPorCodigoDeEstudiante(@PathVariable String codigo) {
         return pagoRepository.findByEstudianteCodigo(codigo);
     }

@@ -1,7 +1,19 @@
-# Dependencies
-node_modules/
+# Root level generated folders and files
+/src/
+/.mvn/
+/target/
+/node_modules/
+/.settings/
+/.project
+/.classpath
 /.pnp
 .pnp.js
+/.idea/
+/.vscode/*
+!/.vscode/extensions.json
+/HELP.md
+/.apt_generated/
+/.apt_generated_tests/
 
 # Testing
 /coverage
