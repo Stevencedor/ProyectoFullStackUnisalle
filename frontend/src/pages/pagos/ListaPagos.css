@@ -1,0 +1,203 @@
+.lista-pagos {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.lista-pagos h2 {
+  color: #003d7d;
+  margin-bottom: 2rem;
+}
+
+.filtros {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.filtro {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.filtro select {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  min-width: 200px;
+}
+
+.filtro button {
+  padding: 0.5rem 1rem;
+  background-color: #003d7d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.filtro button:hover {
+  background-color: #002d5d;
+}
+
+.tabla-container {
+  overflow-x: auto;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+  color: #333;
+}
+
+tr:hover {
+  background-color: #f9f9f9;
+}
+
+/* Estilos para el select de estado */
+td select {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  width: 120px;
+}
+
+.status-creado {
+  color: #f39c12;
+  background-color: #fef6e7;
+}
+
+.status-validado {
+  color: #27ae60;
+  background-color: #eafaf1;
+}
+
+.status-rechazado {
+  color: #c0392b;
+  background-color: #fdedec;
+}
+
+.btn-descargar {
+  padding: 0.5rem 1rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 0.9rem;
+}
+
+.btn-descargar:hover {
+  background-color: #388e3c;
+}
+
+.error-mensaje {
+  background-color: #fee;
+  color: #c00;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.cargando {
+  text-align: center;
+  padding: 2rem;
+  color: #666;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  .filtros {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .filtro {
+    width: 100%;
+  }
+
+  .filtro select {
+    flex: 1;
+  }
+
+  td, th {
+    padding: 0.8rem 0.5rem;
+  }
+
+  .btn-descargar {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.8rem;
+  }
+}
+
+/* Estilos para React Select */
+.react-select__control {
+  min-width: 200px !important;
+  border: 1px solid #ccc !important;
+  border-radius: 4px !important;
+}
+
+.react-select__control:hover {
+  border-color: #003d7d !important;
+}
+
+.react-select__control--is-focused {
+  border-color: #003d7d !important;
+  box-shadow: 0 0 0 1px #003d7d !important;
+}
+
+.react-select__menu {
+  z-index: 1000 !important;
+}
+
+.react-select__option {
+  cursor: pointer !important;
+  padding: 8px 12px !important;
+}
+
+.react-select__option--is-selected {
+  background-color: #003d7d !important;
+}
+
+.react-select__option--is-focused:not(.react-select__option--is-selected) {
+  background-color: #e6eef7 !important;
+}
+
+.react-select__multi-value {
+  background-color: #e6eef7 !important;
+}
+
+.react-select__multi-value__label {
+  color: #003d7d !important;
+}
+
+.react-select__multi-value__remove:hover {
+  background-color: #cce0f5 !important;
+  color: #003d7d !important;
+}
+
+@media (max-width: 768px) {
+  .react-select__control {
+    width: 100% !important;
+  }
+}

@@ -1,0 +1,198 @@
+.lista-estudiantes {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.lista-estudiantes h2 {
+  color: #003d7d;
+  margin-bottom: 2rem;
+}
+
+.filtros {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.busqueda,
+.filtro-programa {
+  display: flex;
+  gap: 0.5rem;
+  flex: 1;
+  min-width: 250px;
+}
+
+.filtros input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  flex: 1;
+}
+
+.filtros button {
+  padding: 0.5rem 1rem;
+  background-color: #003d7d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  white-space: nowrap;
+}
+
+.filtros button:hover {
+  background-color: #002d5d;
+}
+
+.btn-limpiar {
+  padding: 0.5rem 1rem;
+  background-color: #666;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-limpiar:hover {
+  background-color: #555;
+}
+
+.tabla-container {
+  overflow-x: auto;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+  color: #333;
+}
+
+tr:hover {
+  background-color: #f9f9f9;
+}
+
+.btn-ver-pagos {
+  padding: 0.5rem 1rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-ver-pagos:hover {
+  background-color: #388e3c;
+}
+
+.error-mensaje {
+  background-color: #fee;
+  color: #c00;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.error-mensaje button {
+  padding: 0.5rem 1rem;
+  background-color: #c00;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.error-mensaje button:hover {
+  background-color: #a00;
+}
+
+.cargando {
+  text-align: center;
+  padding: 2rem;
+  color: #666;
+}
+
+.spinner {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid #003d7d;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 1rem;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.mensaje-info {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  color: #666;
+  font-size: 1.1rem;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  .filtros {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .busqueda,
+  .filtro-programa {
+    width: 100%;
+    min-width: unset;
+  }
+
+  .btn-limpiar {
+    width: 100%;
+  }
+
+  td, th {
+    padding: 0.8rem 0.5rem;
+  }
+
+  .btn-ver-pagos {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  .error-mensaje {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .error-mensaje button {
+    width: 100%;
+  }
+}

@@ -1,0 +1,140 @@
+.registro-pago {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.registro-pago h2 {
+  color: #003d7d;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.formulario-pago {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-grupo {
+  margin-bottom: 1.5rem;
+}
+
+.form-grupo label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #333;
+  font-weight: 500;
+}
+
+.form-grupo input,
+.form-grupo select {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.form-grupo input:focus,
+.form-grupo select:focus {
+  outline: none;
+  border-color: #003d7d;
+  box-shadow: 0 0 0 2px rgba(0, 61, 125, 0.2);
+}
+
+.form-grupo input[type="file"] {
+  padding: 0.5rem;
+  border: none;
+  background-color: #f5f5f5;
+}
+
+.form-grupo small {
+  display: block;
+  margin-top: 0.5rem;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+  margin-top: 2rem;
+}
+
+.btn-cancelar,
+.btn-registrar {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-cancelar {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.btn-cancelar:hover {
+  background-color: #d0d0d0;
+}
+
+.btn-registrar {
+  background-color: #003d7d;
+  color: white;
+}
+
+.btn-registrar:hover:not(:disabled) {
+  background-color: #002d5d;
+}
+
+.btn-registrar:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.error-mensaje,
+.exito-mensaje {
+  padding: 1rem;
+  border-radius: 4px;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.error-mensaje {
+  background-color: #fee;
+  color: #c00;
+  border: 1px solid #fcc;
+}
+
+.exito-mensaje {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+  border: 1px solid #c8e6c9;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  .registro-pago {
+    padding: 1rem;
+  }
+
+  .formulario-pago {
+    padding: 1.5rem;
+  }
+
+  .form-actions {
+    flex-direction: column-reverse;
+  }
+
+  .btn-cancelar,
+  .btn-registrar {
+    width: 100%;
+    padding: 1rem;
+  }
+}
