@@ -2,46 +2,112 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: #f5f5f5;
+  padding-top: 80px; /* Altura del navbar */
 }
 
-.app-header {
-  background-color: #003d7d;  /* Color institucional de La Salle */
-  color: white;
-  padding: 1rem;
-  text-align: center;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-.app-header h1 {
-  margin: 0;
-  font-size: 1.8rem;
-}
-
-main {
+.app-main {
   flex: 1;
-  padding: 2rem;
-  max-width: 1200px;
-  margin: 0 auto;
+  min-height: calc(100vh - 160px - 80px); /* altura total - (navbar + footer + padding-top) */
+  padding-top: 20px;
+  padding-bottom: 40px;
   width: 100%;
-  box-sizing: border-box;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .app-footer {
-  background-color: #f5f5f5;
-  color: #666;
-  padding: 1rem;
+  background-color: #003d7d;
+  color: white;
   text-align: center;
-  font-size: 0.9rem;
-  border-top: 1px solid #ddd;
+  padding: 1rem;
+  margin-top: auto;
+}
+
+/* Estilos generales para botones */
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #003d7d;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #002d5d;
+}
+
+.btn-secondary {
+  background-color: #4caf50;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #388e3c;
+}
+
+/* Estilos para contenedores */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Estilos para formularios */
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.form-control {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #003d7d;
+  box-shadow: 0 0 0 2px rgba(0, 61, 125, 0.2);
+}
+
+/* Estilos para mensajes de estado */
+.alert {
+  padding: 1rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.alert-success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.alert-error {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
 }
 
 /* Estilos responsivos */
 @media (max-width: 768px) {
-  .app-header h1 {
-    font-size: 1.5rem;
-  }
-
-  main {
-    padding: 1rem;
+  .app-main {
+    padding-top: 10px;
+    padding-bottom: 20px;
   }
 }
